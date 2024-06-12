@@ -1,0 +1,26 @@
+#controls i {
+    font-size: 30px;
+    color: purple;
+    margin-right: 20px;
+}
+
+.container {
+    width: 350px;
+}
+
+#progress {
+    margin-bottom: 20px;
+}
+
+#progress .times,
+#controls .card-footer .volume-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
